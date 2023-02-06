@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="n.css"> </head>
+<body>
+<table>
+<tbody>
+<script src="n.js"></script>
+<script>
+for (let i= 0; i < shuffledDeck.length; i += 5) {
+document.write(`<tr>
+<td class="${shuffledDeck[i].suit}">${shuffledDeck[i].value}</td>
+<td class="${shuffledDeck[i +1].suit}">${shuffledDeck[i + 1].value}</td>
+<td class="${shuffledDeck[i +2].suit}">${shuffledDeck[i + 2].value}</td>
+<td class="${shuffledDeck[i +3].suit}">${shuffledDeck[i + 3].value}</td>
+<td class="${shuffledDeck[i +4].suit}">${shuffledDeck[i + 4].value}</td>
+</tr>`);
+}
+</script>
+</tbody>
+</table>
+</body>
+</html>
