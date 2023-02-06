@@ -1,0 +1,17 @@
+td {
+width: 50px;
+height: 75px;
+text-align: center;
+vertical-align: middle;
+}
+.clubs {
+background-color: green;
+}
+.diamonds {
+background-color: orange;
+}
+.spades {
+background-color: darkblue;
+}.hearts {
+background-color: red;
+}
