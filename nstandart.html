@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="mat.css"> </head>
+<body>
+<table>
+<tbody>
+<script src="mat.js"></script>
+<script>
+for(let i = 0; i < shuffledDeck.length; i += 4) {
+document.write(`
+<tr>
+<td class="${shuffledDeck[i].suit}">${shuffledDeck[i].value}</td>
+<td class="${shuffledDeck[i +1].suit}">${shuffledDeck[i + 1].value}</td>
+<td class="${shuffledDeck[i +2].suit}">${shuffledDeck[i + 2].value}</td>
+<td class="${shuffledDeck[i +3].suit}">${shuffledDeck[i + 3].value}</td>
+</tr>
+`);
+}
+</script>
+</tbody>
+</table>
+</body>
+</html>
