@@ -1,0 +1,23 @@
+td {
+width: 50px;
+height: 75px;
+color: white;
+text-align: center;
+vertical-align: middle;
+}
+.red {
+color: blue;
+background-color: red;
+}
+.orange {
+background-color: orange;
+}
+.green {
+background-color: green;
+}
+.blue {
+background-color: blue;
+}
+.violet {
+background-color: violet;
+}
